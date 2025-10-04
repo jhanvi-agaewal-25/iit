@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhanvi Agarwal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav id="sidebar">
+        <div class="profile-header">
+            <div class="profile-pic-container">
+                <img src="Photo.JPG" alt="Jhanvi Agarwal" class="profile-pic">
+                <div class="status-dot"></div>
+            </div>
+            <h3>Jhanvi Agarwal</h3>
+            <p class="profile-subtitle">Electrical Engineering Student</p>
+        </div>
+        <ul>
+            <li><a href="#home" class="active"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="#e-resume"><i class="fas fa-file-alt"></i>E-Resume</a></li>
+            <li>
+                <a href="#life"><i class="fas fa-university"></i>Life at IIT Roorkee</a>
+                <ul class="sub-menu">
+                    <li><a href="#trips"><i class="fas fa-camera"></i>Trips</a></li>
+                    <li><a href="#blogs"><i class="fas fa-blog"></i>Blogs</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="content">
+        <section id="home" class="content-section active">
+            <div class="hero-section">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Jhanvi Agarwal</span></h1>
+                    <p class="hero-subtitle">Fresher at IIT Roorkee from Jaipur</p>
+                    <div class="typing-animation">
+                        <span class="typed-text"></span>
+                        <span class="cursor">&nbsp;</span>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-frame">
+                        <img src="Photo.JPG" alt="Jhanvi's Photo" class="main-photo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bio-section">
+                <div class="bio-card">
+                    <div class="card-icon"><i class="fas fa-user"></i></div>
+                    <h3>About Me</h3>
+                    <p>B.Tech in Electrical Engineering student at IIT Roorkee. I love to dance, draw and play every sport. Always eager to learn and explore new opportunities!</p>
+                </div>
+            </div>
+
+            <div class="contact-section">
+                <h2><i class="fas fa-envelope"></i> Let's Connect</h2>
+                <div class="contact-cards">
+                    <a href="mailto:jhanvi_a@ee.iitr.ac.in" class="contact-card email">
+                        <i class="fas fa-envelope"></i>
+                        <span>jhanvi_a@ee.iitr.ac.in</span>
+                    </a>
+                    <a href="https://instagram.com/jhanviagarwal_" target="_blank" class="contact-card instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span>@jhanviagarwal_</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="e-resume" class="content-section">
+            <div class="resume-header">
+                <h1><i class="fas fa-graduation-cap"></i> Resume</h1>
+                <p class="resume-subtitle">My academic journey and skills</p>
+            </div>
+
+            <div class="resume-grid">
+                <div class="resume-card education">
+                    <div class="card-header">
+                        <i class="fas fa-school"></i>
+                        <h3>Education</h3>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>B.Tech Electrical Engineering</h4>
+                            <p class="institution">IIT Roorkee (2025-2029)</p>
+                            <span class="status">Currently Pursuing</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>12th Standard</h4>
+                            <p class="institution">Modern School, Jaipur</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-card achievements">
+                    <div class="card-header">
+                        <i class="fas fa-trophy"></i>
+                        <h3>Achievements</h3>
+                    </div>
+                    <div class="achievement-list">
+                        <div class="achievement-item">
+                            <i class="fas fa-medal"></i>
+                            <span>JEE Advanced Rank 831 (2025)</span>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-award"></i>
+                            <span>Gold & Silver Medalist in IMO</span>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>Drawing Certificate - Navbharat Times</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-card skills">
+                    <div class="card-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Technical Skills</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item"><i class="fas fa-file-word"></i> MS Office Suite</div>
+                        <div class="skill-item"><i class="fab fa-cuttlefish"></i> C++</div>
+                        <div class="skill-item"><i class="fab fa-html5"></i> HTML</div>
+                    </div>
+                </div>
+
+                <div class="resume-card soft-skills">
+                    <div class="card-header">
+                        <i class="fas fa-users"></i>
+                        <h3>Soft Skills</h3>
+                    </div>
+                    <div class="soft-skills-list">
+                        <span class="skill-tag">Leadership</span>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Team Player</span>
+                        <span class="skill-tag">Patient Listener</span>
+                        <span class="skill-tag">Multilingual</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="life" class="content-section">
+            <div class="life-header">
+                <h1><i class="fas fa-university"></i> Life at IIT Roorkee</h1>
+                <p class="life-subtitle">A journey through R-land from a fresher's perspective</p>
+            </div>
+
+            <div class="life-gallery">
+                <div class="gallery-item featured">
+                    <div class="gallery-image">
+                        <img src="photo1.jpeg" alt="Campus Life">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="gallery-content">
+                        <div class="content-icon"><i class="fas fa-calendar-alt"></i></div>
+                        <h3>Festival Highlights</h3>
+                        <p>Colors, Chaos, & Camaraderie! Campus festivals are where the real fun happens. From quirky decorations to endless dancing, every moment bursts with energy and enthusiasm. These festivals are all about making memories and getting to know each other.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <img src="photo2.jpeg" alt="Hostel Life">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="gallery-content">
+                        <div class="content-icon"><i class="fas fa-home"></i></div>
+                        <h3>Hostel Diaries</h3>
+                        <p>The best part of campus life! Late-night Maggi talks, last-minute exam prep, and bonds that became family. These walls have witnessed our dreams, tears, and unforgettable memories that make every day worth remembering.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="campus-stats">
+                <div class="stat-item">
+                    <div class="stat-number">1</div>
+                    <div class="stat-label">Year at IITR</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">Memories Made</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Learning</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="trips" class="content-section">
+            <h1>Festival Highlights</h1>
+           <img src="photo3.jpeg" width="100%" height="100%">
+           <b><u><h1>Garba Night </h1></u></b>
+           Garba night was full of rhythm, colors, and energy!<br>
+            We twirled to the beats, wore vibrant traditional outfits, and enjoyed every moment of dancing with friends.<br>
+             The lights, music, and festive vibes made the evening unforgettable.<br> 
+             Celebrating together turned every step into laughter and every twirl into memories we’ll always cherish.<br><br><br>
+             <img src="photo4.jpeg" width="100%" height="100%">
+            <b><u><h1>Ganesh Chaturthi</h1></u></b>
+             Ganesh Chaturthi was a blast this year!<br> 
+             We decorated the place with lights and flowers, made some delicious modaks,<br> 
+             and enjoyed every bit of the festivities together.<br> 
+             From singing bhajans to playing fun games, it was a day full of laughter, joy, and memories that we’ll cherish forever. <br>
+             Celebrating with friends made the festival even more special, turning every moment into a mini adventure of colors, sweets, and smiles.<br><br><br>
+             <img src="photo5.jpeg" width="100%" height="100%">
+            <b><u><h1>Janmashtami </h1></u></b>
+             Janmashtami was full of fun and excitement!<br>
+              We dressed up, and even tried our hands at the Dahi Handi tradition.<br>
+               With friends around, the day was filled with laughter, sweets, and playful competitions. <br>
+               From decorating the venue to enjoying the festive vibes together, it was a joyful celebration that made the birth of Lord Krishna even more special.
+        </section>
+
+        <section id="blogs" class="content-section">
+            <h1>Blogs</h1>
+           <img src="photo6.jpeg" width="100%" height="100%">
+           <u><b><h2>The beginning of a new chapter in Roorkee</h2></b></u>
+           The first days at IITR as a fresher felt like stepping into a whole new world.<br> 
+           From exploring the huge campus to making friends from every corner of the country,everything seemed exciting and new.<br> 
+           Late-night walks, canteen hangouts, and endless hostel chatter became the highlights of those days. <br>
+           It felt like the long struggle of JEE had finally paid off a dream turning into reality,<br>
+            where every moment carried the thrill of freedom and new beginnings.<br><br><br>
+            <img src="1.jpeg" width="100%" height="100%">
+            <b><u><h1>Deadlines</h1></u></b>
+            <img src="2.jpeg" width="100%" height="100%">
+            <h2>*Deadlines*</h2>
+Thinking about shifting from the hectic schedule of JEE preparation to the life of IITR <br>
+was truly contrasting as contrasting as burning the midnight oil for exams and then suddenly <br>
+racing to submit assignments on time. Life here revolves around deadlines, whether it’s projects, reports, or presentations. <br>
+They come unannounced, pile up quickly, and teach us the art of last-minute hustle. While stressful,<br>
+ these deadlines are what shape our discipline, time management, and resilience in the long run.<br><br><br>
+  <b><u><h1>Family and Home  </h1></u></b>
+ <img src="3.jpeg" width="100%" height="100%">
+ <h2>*Family and Home* </h2> 
+Staying away from home reminds us of the warmth and comfort we left behind when we stepped into hostel life.<br>
+ From mom’s homemade food to dad’s advice and the laughter echoing in our rooms,very memory feels more special now.<br>
+  Living away from home teaches us the true value of those simple moments the love, care, and sense of belonging that no place else can replace.
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
